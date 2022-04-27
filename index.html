@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--link to fontawesome script-->
     <script src="https://kit.fontawesome.com/0e9d3000dd.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/poster.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Task</title>
 </head>
 <body>
@@ -21,7 +21,15 @@
                 <span class="movie-duration">1h 55m</span>
             </p>
             <div class="movie-poster-container">
-                <img src="images/freeGuy.jpg" alt="Free Guy Poster">
+                <img src="images/freeGuy.jpg" alt="Movie poster" class="poster-picture">
+            <div id="mymodal" class="modal">
+                <div class="modal-content">
+                    <span class="closeBtn">&times;</span> 
+                    <h2>Free Guy! </h2>
+                    <img src="" alt="" class="movie-poster-modal">
+                   
+                </div>
+            </div>
             </div>
 
             <div class="movie-info-container">
@@ -56,5 +64,6 @@
 
     </div>
     
+    <script src="scripts/app.js"></script>
 </body>
 </html>
